@@ -1,0 +1,72 @@
+body{
+    background: lightblue;
+    font-family:'Niramit', sans-serif;
+}
+#map-canvas {
+    height: 300px;
+}
+.daysWeather{
+    height: 250px;
+}
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 2px 0 20px 0;
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+}
+.row{
+    margin-bottom: 0;
+    border-bottom: #1B87E5 4px solid;
+    background: #243040;
+    box-sizing: border-box;
+}
+
+
+#daysWeather{
+    color: #efebe2;
+}
+#day3 , #day2 {
+    border-left: #607d8b 2px solid;
+    display: inline-block;
+}
+#day1 , #day2 ,#day3{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    background: #243040;
+    font-size: 25px;
+}
+.extraDetails{
+    font-size: 15px;
+}
+.dates{
+    color: #607d8b;
+}
+.icon{
+    height: 70px;
+}
+#day1>.dates{
+    color: #efebe2;
+}
+#day2>.extraDetails , #day3>.extraDetails{
+    color: #607d8b;
+
+}
+.waves-effect {
+    position: absolute;
+    top: 60%;
+    background: #607d8b;
+    /*height: 100px;*/
+    /*line-height: 100px;*/
+    opacity: .4;
+}
+.waves-effect:hover{
+    background: #243040;
+    opacity: .7;
+}
+.waves-effect2{
+    left: 90%;
+
+}

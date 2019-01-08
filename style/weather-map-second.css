@@ -1,0 +1,122 @@
+body{
+    background-image: linear-gradient(to bottom right, slateblue, mediumaquamarine);
+    font-family: 'Niramit', sans-serif;
+}
+#map-canvas {
+    height: 350px;
+    margin-left: 13px;
+    background: rgba(56, 86, 139, 0.5);
+    opacity:.7 ;
+}
+.daysWeather{
+    height: 250px;
+    border-radius: 5px;
+
+}
+p {
+    color: #FFFFFF;
+    /*text-align: center;*/
+    margin: 2px 0 20px 0;
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+}
+.container{
+    height: 100%;
+    padding: 2em;
+}
+.row{
+    margin-bottom: 0;
+    background: transparent;
+    box-sizing: border-box;
+}
+#cityName{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: white solid 1px;
+    margin: 2px 0 20px 0;
+}
+
+#daysWeather{
+    box-sizing: border-box;
+    color: #efebe2;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0;
+    margin-bottom: 100px;
+
+}
+#day5 ,#day3 , #day2 , #day4 {
+    border-left: #607d8b 2px solid;
+}
+#day5 , #day2 ,#day3 , #day4{
+    text-align: center;
+    margin: 20px 0 0 0;
+    background: rgba(56, 86, 139, 0.5);
+    font-size: 25px;
+}
+.extraDetails{
+    font-size: 15px;
+}
+.dates{
+    color: #bfa67f;
+}
+.dates1{
+    font-size: 45px;
+}
+.icon{
+    height: 120px;
+}
+.icon1{
+    height: 350px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+.tempt1{
+    color: #FFFFFF;
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+    right: 264px;
+}
+.mainDetails1{
+    font-size: 30px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+#day1>.dates{
+    color: #efebe2;
+}
+
+.waves-effect {
+    position: absolute;
+    top: 60%;
+    background: #607d8b;
+    opacity: .4;
+}
+.waves-effect:hover{
+    background: #243040;
+    opacity: .7;
+}
+.waves-effect2{
+    left: 90%;
+}
+.flt{
+    float: left;
+    padding: 5px;
+}
+#mainday{
+    background: rgba(56, 86, 139, 0.5);
+
+
+    width: 65%;
+}
+.hoverHumidity{
+    font-size: 20px;
+    display: none;
+}
